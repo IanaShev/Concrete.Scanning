@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.promo {
+    height: 900px;
+    background: url('/img/promo.jpg') center /* по оси х */ center /* по оси у */ /cover no-repeat;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto; /* т.о. блочный эл-т ставится по ц. блока */
+}
+.logo .logo_img {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 120px;
+    height: 120px;
+}
+.logo .logo_text {
+    color: #ffffff;
+    font-weight: 900;
+    margin-left: 35px;
+    margin-right: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 18px;
+}
+.title_big{
+    width: 1300px;
+    height: 74px;
+    color: #e79014;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style:normal;
+    letter-spacing: normal;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 6px rgb(12, 12, 12);
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.title_description{
+    width: 1300px;
+    height: 65px;
+    color: white;
+    font-family:castellar;
+    font-size: 25px;
+    font-weight: 760 ;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 424px;
+    text-align: center;
+    line-height: normal;
+    text-shadow: 3px 5px 6px rgb(12, 12, 12);
+}
+.title_description2{
+    width: 1300px;
+    height: 145px;
+    color: #e79014;
+    font-size: 24px;
+    font-weight: 625;
+    font-style: normal;
+    font-family:castellar;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    text-shadow: 3px 5px 6px rgb(12, 12, 12);
+    margin-bottom: 40px;
+}
+.title_hook {
+    width: 1150px;
+    height: 88px;
+    color: black;
+    font-family:castellar;
+    font-size: 30px;
+    font-weight: 2100 ;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 3px 5px 6px rgb(12, 12, 12);
+    margin-left: 77px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+.promo_btn {
+    display: block;
+    margin: 0 auto;
+    width: 288px;
+    height: 62px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, red 0%, orange 100%);
+
+    height: 60px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline:black;
+}
+.about {
+    height: 604px;
+    padding: 85px 0 75px 0;
+}
+.about .about_header {
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    text-transform: uppercase;
+    padding: 25px 0 15px 0;
+
+}
+.about .about_devider{
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+} 
+.about .about_wrapper{
+    margin-top: 45px;
+}
+.about .about_wrapper .about_item {
+    display: inline-block;
+    width: 642px;
+    text-align: center;
+    vertical-align: top;
+}
+#frstpic{
+    margin-bottom: 20px;
+}
+#scndpic {
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 350px;
+    height: 180px;
+}
+.about_descr {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.my-flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(243, 71, 8);
+    font-weight: 800;
+    margin: 10px;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    background-color:#f3f2d9
+}
+
+.ser {
+    height: 704px;
+}
+.ser_header {
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    text-transform: uppercase;
+    padding: 25px 0 15px 0;
+}
+.ser .ser_devider{
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-bottom: 30px;
+} 
+.ser .ser_wrapper {
+        height: 700px;
+        background: url('/img/service_pic.jpg') center /* по оси х */ center /* по оси у */ /cover no-repeat;
+}
+.ser .ser_wrapper .ser_item {
+    display: inline-block;
+    width: 566px;
+    text-align:unset;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+.ser .ser_wrapper .ser_subheader {
+    color: rgb(243, 71, 8);
+    font-size: 33px;
+    margin-top: 20px;
+}
+.ser .ser_wrapper .ser_description {
+    font-family: Bodoni MT;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.finish .finish_wrapper {
+    height: 160px;
+    background: url('/img/footer.png') center /* по оси х */ center /* по оси у */ /cover no-repeat;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.finish .finish_header {
+    color: rgb(252, 248, 248);
+    font-weight: 600;
+    font-family: century gothic;
+    text-align: center;
+    font-size: 250%;
+}
+#phone {
+    color:rgb(243, 71, 8)
+}
